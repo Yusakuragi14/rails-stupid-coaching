@@ -10,6 +10,6 @@ Rails.application.routes.draw do
 
   # root "posts#index"
   root to: "ask#home"
-  get "answer" => "questions#answer"
+  get "/answer" => "questions#answer"
 
 end
